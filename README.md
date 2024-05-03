@@ -1,10 +1,11 @@
 # SmartCalc_v2.0
 
 SmartCalc is an ingeneer calculator app.
+
 v2.0 provides type XeY exponential notation and fixes some bugs.
 
 ## Basic properties:
-- Both integers and real numbers with a dot can be input into the program. .
+- Both integers and real numbers with a dot can be input into the program.
 - Calculating arbitrary bracketed arithmetic expressions in infix notation;
 - Calculate arbitrary bracketed arithmetic expressions in infix notation with substitution of the value of the variable _x_ as a number;
 - Plotting a graph of a function given by an expression in infix notation with the variable _x_ (with coordinate axes, mark of the used scale and an adaptive grid);
