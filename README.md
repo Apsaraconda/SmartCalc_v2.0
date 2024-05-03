@@ -43,3 +43,12 @@ The program structure has been changed in accordance with the MVC design pattern
       | Computes square root | sqrt(x) |
       | Computes natural logarithm | ln(x) |
       | Computes common logarithm | log(x) |
+      
+## Compilation:
+
+Ubuntu or MacOS and Qmake v.6+ required.
+
+Use "make" command:
+```
+make install
+```
