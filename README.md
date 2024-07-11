@@ -6,6 +6,10 @@ v2.0 provides type XeY exponential notation and fixes some bugs.
 
 The program structure has been changed in accordance with the MVC design pattern and Google Style requirements.
 
+## Requirements:
+- Ubuntu or MacOS operating system;
+- Qt version 6+ (e.g. qt-6-base-dev for Ubuntu);
+
 ## Basic properties:
 - Both integers and real numbers with a dot can be input into the program.
 - Calculating arbitrary bracketed arithmetic expressions in infix notation;
@@ -51,4 +55,30 @@ Ubuntu or MacOS and Qmake v.6+ required.
 Use "make" command:
 ```
 make install
+```
+## Uninstall:
+```
+make uninstall
+```
+Or delete app's directory.
+
+## Run:
+```
+make run
+```
+Or manually open "3D_Viewer" file.
+
+## Zip compiled program:
+```
+make dist
+```
+It makes "dist_3DViewer.tar.gz" file.
+
+## Compile and open readme.dvi:
+```
+make dvi
+```
+If you have not installed "latex" command:
+```
+make latex_install
 ```
