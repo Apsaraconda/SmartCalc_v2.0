@@ -1,9 +1,5 @@
-.PHONY: all clean install uninstall dvi dist test gcov_report
-CC=g++ 
-STDFLAGS=-Wall -Wextra -Werror -std=c++17
-GCOV_FLAGS=-fprofile-arcs -ftest-coverage
-LINUX_FLAGS=-lpthread -lm -lsubunit
-LIBS=-lgtest -lstdc++
+.PHONY: all clean install uninstall dvi dist
+
 DIST = $$(pwd)/../dist
 DIR=../SmartCalc_v2.0#  путь установки
 INSTALL_PATH = $(DIR)/opt/SmartCalc/bin/
@@ -66,21 +62,7 @@ $(TARGET): ${SRC}
 	ar rc $@ *.o
 	ranlib $@
 
-clean_obj:
-	rm -rf *.o
-	rm -rf view/*.o
-
-clean_lib: 
-	rm -rf *.a
-
-clean_test:
-	rm -rf *.gcda
-	rm -rf *.gcno
-	rm -rf *.info
-	rm -rf test
-	rm -rf report
-
-clean: clean_lib clean_lib clean_test clean_obj
+clean:
 	rm -rf unit_test
 	rm -rf dist/ 
 	rm -rf $(DIR) 
