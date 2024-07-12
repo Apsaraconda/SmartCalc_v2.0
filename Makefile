@@ -1,7 +1,7 @@
 .PHONY: all clean install uninstall dvi dist
 
 DIST = $$(pwd)/../dist
-DIR=../SmartCalc_v2.0#  путь установки
+DIR=SmartCalc_v2.0#  путь установки
 INSTALL_PATH = $(DIR)/opt/SmartCalc/bin/
 
 OS := $(shell uname -s)
