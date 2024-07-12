@@ -2,7 +2,7 @@
 
 DIST = $$(pwd)/dist
 DIR=SmartCalc_v2.0#  путь установки
-INSTALL_PATH = $(DIR)/opt/SmartCalc/bin/
+INSTALL_PATH = $(DIR)
 
 OS := $(shell uname -s)
 USERNAME=$(shell whoami)
