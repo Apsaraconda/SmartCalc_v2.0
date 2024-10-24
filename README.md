@@ -6,7 +6,7 @@ v2.0 provides type XeY exponential notation and fixes some bugs.
 
 The program structure has been changed in accordance with the MVC design pattern and Google Style requirements.
 
-![](https://github.com/Apsaraconda/SmartCalc_v2.0/assets/preview.gif)
+![](https://github.com/Apsaraconda/SmartCalc_v2.0/blob/main/assets/preview.gif)
 
 ## Requirements:
 - Ubuntu or MacOS operating system;
