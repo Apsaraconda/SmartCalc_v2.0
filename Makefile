@@ -18,7 +18,7 @@ all : install
 
 install:
 	rm -rf $(DIR)
-	mkdir $(DIR) && cd $(DIR) && qmake6 -o Makefile ../view/"SmartCalc.pro" && make install INSTALL_ROOT=$(DIR)
+	mkdir $(DIR) && cd $(DIR) && qmake6 -o Makefile ../src/view/"SmartCalc.pro" && make install INSTALL_ROOT=$(DIR)
 
 uninstall:
 	cd $(DIR) && make uninstall INSTALL_ROOT=$(DIR)
@@ -44,7 +44,7 @@ dist : clean
 	mkdir dist
 	chmod 777 dist
 	rm -rf $(DIR)
-	mkdir $(DIR) && cd $(DIR) && qmake6 -o Makefile ../view/"SmartCalc.pro" && make install INSTALL_ROOT=$(DIST)
+	mkdir $(DIR) && cd $(DIR) && qmake6 -o Makefile ../src/view/"SmartCalc.pro" && make install INSTALL_ROOT=$(DIST)
 	tar -czf SmartCalc.tar.gz dist
 
 clean:
