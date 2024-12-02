@@ -6,7 +6,7 @@ SmartCalc is an ingeneer calculator app.
 
 ## Requirements:
 - Ubuntu or MacOS operating system;
-- Qt version 6+ (e.g. qt-6-base-dev for Ubuntu);
+- For compiling: Qt version 6+ (e.g. qt-6-base-dev for Ubuntu);
 
 ## Basic properties:
 - Both integers and real numbers with a dot can be input into the program.
