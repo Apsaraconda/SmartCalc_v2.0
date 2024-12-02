@@ -1,10 +1,10 @@
 # SmartCalc_v2.0
 
-SmartCalc is an ingeneer calculator app.
+SmartCalc is an ingeneer calculator app for Ubuntu or MacOS operating system.
 
 ![](https://github.com/Apsaraconda/SmartCalc_v2.0/blob/main/assets/preview.gif)
 
-## Requirements:
+## Compilation requirements:
 - Ubuntu or MacOS operating system;
 - For compiling: Qt version 6+ (e.g. qt-6-base-dev for Ubuntu);
 
